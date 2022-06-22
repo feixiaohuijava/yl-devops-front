@@ -1,0 +1,59 @@
+{
+    "name": "控制台",
+    "path": "/",
+    "icon": "fa-th-large"
+  },
+  {
+    "name": "测试组件",
+    "path": "/test",
+    "icon": "fa-th-large"
+  },
+  {
+    "name": "UI元素",
+    "path": "/",
+    "icon": "fa-flask",
+    "children": [{
+       "name": "按钮",
+       "path": "/buttons"
+    },{
+       "name": "段落",
+       "path": "/typography"
+    },{
+       "name": "三级菜单1",
+       "path": "/test1",
+       "children":[{
+        "name":"三级菜单2",
+        "path":"/test1"
+       },{
+        "name":"三级菜单3",
+        "path":"/test1"
+       }]
+    }]
+  },
+  {
+    "name": "Form表单",
+    "path": "/",
+    "icon": "fa-edit",
+    "children": [{
+       "name": "静态普通表单",
+       "path": "/staticForm"
+    },{
+       "name": "动态表单",
+       "path": "/dynamicForm"
+    },{
+       "name": "校验表单",
+       "path": "/vform"
+    }]
+  },
+  {
+    "name": "列表",
+    "path": "/",
+    "icon": "fa-edit",
+    "children": [{
+       "name": "普通列表",
+       "path": "/list"
+    },{
+       "name": "查询列表",
+       "path": "/slist"
+    }]
+  },

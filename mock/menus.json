@@ -1,0 +1,79 @@
+[
+  {
+    "name": "首页",
+    "path": "/",
+    "icon": "el-icon-menu",
+    "children": []
+  },
+  {
+    "name": "资产管理",
+    "path": "/",
+    "icon": "fa-edit",
+    "children": [{
+      "name": "主机",
+      "path": "/host"
+    },{
+      "name": "数据中心",
+      "path": "/data_center"
+    },{
+      "name": "机房",
+      "path": "/engine_room"
+    },{
+      "name": "机柜",
+      "path": "/cabinet"
+    },{
+      "name": "品牌",
+      "path": "/brand"
+    }]
+  },
+  {
+    "name": "服务器初始化",
+    "path": "/",
+    "icon": "fa-edit",
+    "children": [{
+      "name": "扫描主机",
+      "path": "/scan"
+    },{
+      "name": "服务器初始化",
+      "path": "/serverinit"
+    },{
+      "name": "saltkey",
+      "path": "/engine_room"
+    }]
+  },
+  {
+    "name": "openstack部署",
+    "path": "/",
+    "icon": "fa-edit",
+    "children": [{
+      "name": "组件",
+      "path": "/component_openstack"
+    },{
+      "name": "deploy",
+      "path": "/deploy_openstack"
+    }]
+  },
+  {
+    "name": "saltstack管理",
+    "path": "/",
+    "icon": "fa-edit",
+    "children": [{
+      "name": "主机",
+      "path": "/host"
+    },{
+      "name": "数据中心",
+      "path": "/data_center"
+    },{
+      "name": "机房",
+      "path": "/engine_room"
+    },{
+      "name": "机柜",
+      "path": "/cabinet"
+    },{
+      "name": "品牌",
+      "path": "/brand"
+    }]
+  }
+]
+
+
