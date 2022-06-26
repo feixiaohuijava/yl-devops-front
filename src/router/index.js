@@ -286,7 +286,7 @@ const routes = [
       {
         path: '/publish_order_detail/',
         name: 'publish_order_detail',
-        component: require('../views/publishmodule/publishorderdetail').default
+        component: require('../views/publishmodule/publishorder').default
       },
       {
         path: '/publish_today/',
@@ -432,7 +432,7 @@ const routes = [
       {
         path: '/db_redis/',
         name: 'dbredis',
-        component: require('../views/dbaudit/redis').default,
+        component: require('../views/dbaudit/redisEdit').default,
         meta: {
           title: 'redis'
         }
@@ -445,7 +445,7 @@ const routes = [
       {
         path: '/db_redis_see/',
         name: 'db_redis_see',
-        component: require('../views/dbaudit/redisSee').default
+        component: require('../views/dbaudit/redisEdit').default
       },
       {
         path: '/workorder_db/',
